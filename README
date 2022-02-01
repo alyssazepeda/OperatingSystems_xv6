@@ -1,4 +1,4 @@
-## CS 153 Lab Assignment 1: System Calls
+## Operating Systems (xv6)
     
 ## Contributers:
 * Duke Pham
@@ -57,3 +57,8 @@ will need to install a cross-compiler gcc suite capable of producing
 x86 ELF binaries (see https://pdos.csail.mit.edu/6.828/).
 Then run "make TOOLPREFIX=i386-jos-elf-". Now install the QEMU PC
 simulator and run "make qemu".
+
+************************************************************************
+Lab 1. System Calls - Created new system calls
+Lab 2. Scheduler - Changed simple round-robin scheduler to priority scheduler
+Lab 3. Memory Management - Change the user memory layout to a more Linux style layout
